@@ -2,11 +2,60 @@
 <html>
 <head>
 <title>Dylan Bryant</title>
+
+<link rel="stylesheet" href="./styles/generalStyles.css">
+<link rel="stylesheet" href="./styles/imageCards.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="Photography/imageCards.js"></script>
 </head>
 <body>
+    <header class="navbar">
+        <img src="assets\images\Logo.png" class="small-logo">
 
-<h1>Dylan Bryant's Website</h1>
-<p>Under construction</p>
+        <div class="navigation-buttons">
+            <a href="http://photography.dylanbryant.com">Albums</a>
+        </div>
+    </header>
 
+    <div class="cover-section">
+        <h2 class="cover-text">Researching, Exploring, Capturing</h2>
+        
+        <img src="assets\images\DEK_0255_cropped.jpg" class="cover-image image-fit">
+    </div>
+
+    <div class="content-section">
+        <h2 class="center-text">About my Website</h2>
+        <p class="center-paragraph">I've been a photographer for a few years now and I've always enjoyed sharing my photos. Even with all the social media platforms we have today, 
+            there aren't many that allow artists to show off their art in a creative way such as using albums or galleries. 
+            My goal with this website is to creatively show my photography to the world in the way I want it to be shown.</p>
+
+        <h2 class="center-text margin-top-extra-large">Albums</h2>
+        <div id="albums" class="image-cards-section">
+            <a href="http://photography.dylanbryant.com/hikersvision" class="image-card">
+                <img src="assets\images\DEK_0213.jpg" alt="Tuckerman's Ravine">
+                <p class="container">Hiker's Vision</p>
+            </a>
+
+            <a href="http://photography.dylanbryant.com/closerlook" class="image-card">
+                <img src="assets\images\DSC_9344.jpg" alt="Close up of an Ice Cube">
+                <p class="container">A Closer Look</p>
+            </a>
+
+            <a href="http://photography.dylanbryant.com/wildlife" class="image-card">
+                <img src="assets\images\DSC_6249.jpg" alt="Yellow Finch">
+                <p class="container">Wildlife</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <span>Dylan Bryant Photography</span>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/dylan.m.bryant/" target="_blank" class="fa fa-instagram"></a>
+        </div>
+    </footer>
 </body>
 </html>
