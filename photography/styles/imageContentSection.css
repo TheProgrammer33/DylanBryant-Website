@@ -1,0 +1,52 @@
+h1 {
+    color: white;
+}
+
+.image-content-section {
+    background-color: #282828;
+    margin-top: 52px;
+    padding: 24px 5%;
+}
+
+img {
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 33%;
+    padding: 0 4px;
+}
+
+.side-column {
+    max-width: 28%;
+}
+
+.middle-column {
+    max-width: 35%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}

@@ -29,6 +29,11 @@ body {
     flex-direction: row;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .small-logo {
     height: 36px;
 }
@@ -67,6 +72,10 @@ body {
     padding: 8px;
 }
 
+.center-item {
+    justify-content: center;
+}
+
 .center-text {
     display: flex;
     justify-content: center;
@@ -100,7 +109,6 @@ footer {
     padding: 16px 48px;
     background-color: #eeeeee;
     align-items: center;
-
 }
 footer span {
     font-size: small;
