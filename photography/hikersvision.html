@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dylan Bryant - Fall Foliage</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/generalStyles.css">
+    <link rel="stylesheet" href="./styles/imageModalStyles.css">
+    <link rel="stylesheet" href="./styles/landscapeImageContent.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="javascript/imageModal.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <img src="../assets\images\Logo.png" class="small-logo">
+
+        <div class="navigation-buttons">
+            <div class="albums-dropdown">
+                <span>Albums</span>
+                <div class="dropdown">
+                    <a href="http://www.dylanbryant.com/photography/hikersvision.html">Hiker's Vision</a>
+                    <a href="http://www.dylanbryant.com/photography/fallfoliage.html">Fall Foliage</a>
+                    <a href="http://www.dylanbryant.com">A Closer Look</a>
+                    <a href="http://www.dylanbryant.com">Wildlife</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="imageModal" class="modal">
+        <span id="closeImageModal" class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <div class="image-content-section">
+        <h1 class="center-text white-text">Hiker's Vision</h1>
+
+        <div class="row center-item images">
+            <div class="column left-column">
+                <img src="../assets/images/hiking/DEK_0213.JPG"
+                    onclick="openModal('image1')"
+                    class="small-image"
+                    id="image1">
+
+                <img src="../assets/images/hiking/DSC_2275.JPG"
+                    onclick="openModal('image2')"
+                    class="small-image"
+                    id="image2">
+
+                <img src="../assets/images/hiking/DEK_0017.JPG"
+                    onclick="openModal('image3')"
+                    class="large-image"
+                    id="image3">
+
+                <img src="../assets/images/hiking/DEK_0255.JPG"
+                    onclick="openModal('image4')"
+                    class="large-image"
+                    id="image4">
+            </div>
+
+            <div class="column right-column">
+                <img src="../assets/images/hiking/DSC_1984.JPG"
+                    onclick="openModal('image5')"
+                    class="small-image"
+                    id="image5">
+
+                <img src="../assets/images/hiking/DSC_0008.JPG"
+                    onclick="openModal('image6')"
+                    class="small-image"
+                    id="image6">
+
+                <img src="../assets/images/hiking/DSC_1633.JPG"
+                    onclick="openModal('image7')"
+                    class="small-image"
+                    id="image7">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span>Dylan Bryant Photography</span>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/dylan.m.bryant/" target="_blank" class="fa fa-instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
