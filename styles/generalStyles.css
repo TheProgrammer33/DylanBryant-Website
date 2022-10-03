@@ -48,7 +48,7 @@ body {
 
 .dropdown a:hover {background-color: #aaa;}
 
-.navbar:hover .dropdown {display: block;}
+.albums-dropdown:hover .dropdown {display: block;}
 
 
 .flex-row {
